@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Savoia.Desencalha.Domain\Savoia.Desencalha.Domain.csproj" />
+    <ProjectReference Include="..\Savoia.Desencalha.Infrastructure.Email\Savoia.Desencalha.Infrastructure.Email.csproj" />
+    <ProjectReference Include="..\Savoia.Desencalha.Infrastructure.Mongo\Savoia.Desencalha.Infrastructure.Mongo.csproj" />
+  </ItemGroup>
+
+</Project>
